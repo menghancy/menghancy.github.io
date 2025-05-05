@@ -1,0 +1,32 @@
+<html>
+    <head><title>独家菜单</title>
+    <style>
+        #box{width: 100%; height: 50px;position: fixed; top:-16px;background-color: darkgray;
+            text-align: center;}
+        #box1{ position: absolute; top: 5px; left:20px;}
+        #class{list-style: none;text-align: center;margin: 100px; line-height: 80px; }
+        #box2{background-color: rgb(146, 141, 141);margin-top: 50px;margin-left:  450px;}
+        #text{margin: 10px; text-align: center; text-decoration: dotted;}
+        li{border: 1px solid black;margin: 10px; border-radius: 10px; }
+        #class1{margin-left: 400px;}
+            form {margin-bottom: 15px;}
+    </style>
+    </head>
+    <body>
+        <p id="box">独家菜单</p>
+        <div>
+            <ul id="class">
+                <li href="">独家菜单1</li>
+                <li href="">独家菜单2</li>
+                <li href="">独家菜单3</li>
+            </ul>
+        </div>
+        <textarea name="" id="class1" placeholder="请输入您的独家菜单" rows="4" cols="100"></textarea>
+        <div>
+            <form>
+                <input type="submit" name="submit_button" value=" + 添加菜单" id="box2" onclick="alert('菜单添加成功')">
+                <input type="submit" name="submit_button" value=" 删除已有菜单" id="box2" onclick="alert('菜单删除成功')">
+            </form>
+        </div>
+    </body>
+</html>
